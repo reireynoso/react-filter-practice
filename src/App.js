@@ -47,16 +47,16 @@ export default class App extends Component {
     // }
   }
 
-  handleDele = () => {
-    //finish
-      let filter = this.state.originalArray.filter(book => {
-      return book.book_title.toLowerCase().includes(newArr.booktitle.toLowerCase()) && book.byline.toLowerCase().includes(newArr.byline[0].toLowerCase());
-      // return book.byline.toLowerCase().includes(newArr.byline.toLowerCase())
-      })
-      this.setState({
-        books: filter
-      })
-  }
+  // handleDele = () => {
+  //   //finish
+  //     let filter = this.state.originalArray.filter(book => {
+  //     return book.book_title.toLowerCase().includes(newArr.booktitle.toLowerCase()) && book.byline.toLowerCase().includes(newArr.byline[0].toLowerCase());
+  //     // return book.byline.toLowerCase().includes(newArr.byline.toLowerCase())
+  //     })
+  //     this.setState({
+  //       books: filter
+  //     })
+  // }
 
   handleSubmit = (newArr) => {
     // console.log(newArr.byline)
